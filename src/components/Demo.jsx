@@ -77,7 +77,7 @@ const Demo = () => {
 
           <input
             type="url"
-            placeholder="Collez un lien ici ex: https://www.lemonde.fr/..."
+            placeholder="Collez votre lien ici ex: https://www.lemonde.fr/..."
             value={article.url}
             onChange={(e) => setArticle({ ...article, url: e.target.value })}
             onKeyDown={handleKeyDown}
@@ -116,16 +116,17 @@ const Demo = () => {
       </div>
 
       {/* Display Result */}
-      <div className="my-10 max-w-full flex justify-center items-center">
+      <div className="my-20 max-w-full flex justify-center items-center">
         {isFetching ? (
-          <img src={loader} alt="loader" className="mt-4 w-20 h-20 object-contain" />
+          <img src={loader} alt="loader" className=" w-20 h-20 object-contain" />
         ) : error ? (
-          <p className="font-inter font-bold text-black text-center">
+          <p className="font-inter font-bold text-orange-600 text-center">
             Oups, tout ne s'est pas passé comme prévu...
             <br />
-            <span className="font-satoshi font-normal text-gray-700">
+            <span className="font-satoshi font-normal text-gray-700 hidden">
               {error?.data?.error}
             </span>
+            <span className="font-satoshi font-normal text-gray-700">Une erreur s'est produite. Assurez-vous que l'article que vous souhaitez résumer contienne un bloc de texte.</span>
           </p>
         ) : (
           article.summary && (

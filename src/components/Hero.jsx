@@ -11,7 +11,7 @@ const Hero = () => {
           className="w-64 object-contain md:m-0"
         />
         <div className="sm-link__container w-[20rem] flex justify-center items-center selection:items-center">
-          <p className="inline-block text-sm md:mr-1 ">par <strong>Greg Bluwell</strong></p>
+          <p className="inline-block text-sm md:mr-1 ">par <strong className="blue_gradient hover:opacity-80"><a href="https://gregbluwell.dev" target="_blank">Greg Bluwell</a></strong></p>
           <div
             onClick={() =>
               window.open("https://gregbluwell.dev", "_blank")
@@ -46,8 +46,8 @@ const Hero = () => {
       </h1>
       <h2 className="desc">
         Simplifiez vous la lecture avec <strong>SumTheSize</strong>, un outil
-        qui transforme les longs articles en résumés clairs et concis grâce à
-        l'IA.
+        qui transforme vos longs articles présents le web en résumés clairs et concis en français grâce à
+        l'Intelligence Artificielle.
       </h2>
     </header>
   );
