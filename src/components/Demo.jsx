@@ -86,9 +86,9 @@ const Demo = () => {
           />
           <button
             type="submit"
-            className="flex justify-center items-center submit_btn peer-focus:border-gray-700 peer-focus:text-gray-700 "
+            className="submit_btn flex justify-center items-center submit_btn bg-black peer-focus:border-gray-700 peer-focus:text-gray-700 hover:border-orange-500"
           >
-            <p className="text-2xl">↵</p>
+            <p className="text-2xl mb-2 text-white">↵</p>
           </button>
         </form>
 
