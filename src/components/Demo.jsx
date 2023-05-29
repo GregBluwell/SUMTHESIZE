@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 
 import { copy, linkIcon, loader, tick } from "../assets";
 import { useLazyGetSummaryQuery } from "../services/article";
-import { FaRegWindowClose } from "react-icons/fa";
 
 const Demo = () => {
   const [article, setArticle] = useState({
@@ -116,7 +115,7 @@ const Demo = () => {
       </div>
 
       {/* Display Result */}
-      <div className="my-20 max-w-full flex justify-center items-center">
+      <div className="my-14 max-w-full flex justify-center items-center">
         {isFetching ? (
           <img src={loader} alt="loader" className=" w-20 h-20 object-contain" />
         ) : error ? (
@@ -132,7 +131,7 @@ const Demo = () => {
           article.summary && (
             <div className="flex flex-col gap-3 mt-12 ">
               <h2 className="font-satoshi font-bold text-gray-600 text-xl">
-                <span className="blue_gradient text-xl">Résumé</span> de l'article
+              <span className="blue_gradient text-xl">Résumé</span> de l'article
               </h2>
               <div className="summary_box">
                 <p className="font-inter font-medium text-sm text-gray-700 ">
