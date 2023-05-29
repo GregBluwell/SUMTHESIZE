@@ -40,9 +40,9 @@ const Hero = () => {
       </nav>
 
       <h1 className="head_text">
-        <span className="md:text-6xl">Résumez vos Articles avec</span>{" "}
+        <span className="sm:text-5xl">Résumez vos Articles avec</span>{" "}
         <br className="max-md:hidden" />
-        <span className="md:text-6xl orange_gradient">OpenAI GPT-4</span>
+        <span className="sm:text-5xl orange_gradient">OpenAI GPT-4</span>
       </h1>
       <h2 className="desc">
         Simplifiez vous la lecture avec <strong>SumTheSize</strong>, un outil
