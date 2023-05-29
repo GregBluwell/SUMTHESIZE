@@ -6,12 +6,12 @@ const Hero = () => {
     <header className="w-full flex justify-center items-center flex-col">
       <nav className="w-full mb-10 flex flex-col justify-center items-center  md:justify-between  md:flex-row">
         <img
-          src="src/assets/STS-logo-1.png"
+          src="src/assets/sts-logo-1.png"
           alt="sumTheSize_logo"
           className="w-64 object-contain md:m-0"
         />
         <div className="sm-link__container w-[20rem] flex justify-center items-center selection:items-center">
-          <p className="inline-block text-sm md:mr-1 ">par <strong className="blue_gradient hover:opacity-80"><a href="https://gregbluwell.dev" target="_blank">Greg Bluwell</a></strong></p>
+          <p className="inline-block text-sm md:mr-1 ">par <strong className=" hover:opacity-70"><a href="https://gregbluwell.dev" target="_blank">Greg Bluwell</a></strong></p>
           <div
             onClick={() =>
               window.open("https://gregbluwell.dev", "_blank")
