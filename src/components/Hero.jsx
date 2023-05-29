@@ -4,7 +4,7 @@ import { FaGithub, FaGlobe, FaLinkedin, } from "react-icons/fa";
 const Hero = () => {
   return (
     <header className="w-full flex justify-center items-center flex-col">
-      <nav className="w-full mb-16 flex flex-col justify-center items-center  md:justify-between  md:flex-row">
+      <nav className="w-full mb-10 flex flex-col justify-center items-center  md:justify-between  md:flex-row">
         <img
           src="src/assets/STS-logo-1.png"
           alt="sumTheSize_logo"
