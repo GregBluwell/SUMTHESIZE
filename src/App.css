@@ -6,7 +6,6 @@
   Note: The styles for this gradient grid background is heavily inspired by the creator of this amazing site (https://dub.sh) – all credits go to them! 
 */
 
-
 .main {
   width: 100vw;
   min-height: 100vh;
@@ -43,6 +42,7 @@
   filter: invert(1);
 }
 
+
 .gradient {
   height: fit-content;
   z-index: 3;
@@ -67,8 +67,6 @@
   top: 80px;
   opacity: 0.15;
 }
-
-
 
 @media screen and (max-width: 640px) {
   .main {
