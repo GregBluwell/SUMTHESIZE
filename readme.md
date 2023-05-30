@@ -8,7 +8,7 @@
 ![tailwind](https://i.ibb.co/0t3G8B0/tailwind.png)
 
 
-![Bludashmin](https://i.ibb.co/QYV7Vzf/screenshot-localhost-3000-2023-05-25-11-00-17.png)
+![SumTheSize](https://i.ibb.co/qxNwqTL/2.png)
 
 🔴 Live: [**SumTheSize**](https://sumthesize.netlify.app/)
 
