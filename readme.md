@@ -10,7 +10,7 @@
 
 ![Bludashmin](https://i.ibb.co/QYV7Vzf/screenshot-localhost-3000-2023-05-25-11-00-17.png)
 
-🔴 Live: [**SumTheSize**](https://www.gregbluwell.dev/)
+🔴 Live: [**SumTheSize**](https://sumthesize.netlify.app/)
 
 Portfolio: [www.gregbluwell.dev](https://gregbluwell.dev) | Email: greg.bluwell@proton.me | GitHub: [@gregbluwell](https://github.com/GregBluwell)
 
