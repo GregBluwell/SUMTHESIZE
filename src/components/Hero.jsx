@@ -10,8 +10,9 @@ const Hero = () => {
           alt="sumTheSize_logo"
           className="w-64 object-contain md:m-0"
         />
-        <div className="sm-link__container w-[20rem] flex justify-center items-center selection:items-center">
+        <div className="sm-link__container w-[20rem] flex flex-col md:flex-row justify-center items-center selection:items-center">
           <p className="inline-block text-sm md:mr-1 ">par <strong className=" hover:opacity-70"><a href="https://gregbluwell.dev" target="_blank">Greg Bluwell</a></strong></p>
+          <div className="sm-button__bar flex  justify-center items-center ">
           <div
             onClick={() =>
               window.open("https://gregbluwell.dev", "_blank")
@@ -24,7 +25,7 @@ const Hero = () => {
             onClick={() =>
               window.open("https://github.com/GregBluwell", "_blank")
             }
-            className="sum_btn m-1 cursor-pointer"
+            className="sum_btn cursor-pointer"
           >
             <FaGithub />
           </div>
@@ -36,6 +37,7 @@ const Hero = () => {
           >
             <FaLinkedin />
           </div>
+          </div>
         </div>
       </nav>
 
@@ -45,9 +47,8 @@ const Hero = () => {
         <span className="sm:text-5xl orange_gradient">OpenAI GPT-4</span>
       </h1>
       <h2 className="desc">
-        Simplifiez vous la lecture avec <strong>SumTheSize</strong>, un outil
-        qui transforme vos longs articles présents le web en résumés clairs et concis en français grâce à
-        l'Intelligence Artificielle.
+        Simplifiez votre lecture avec <strong>SumTheSize</strong>, un outil
+        qui transforme vos longs articles présents sur le web en résumés clairs et concis.
       </h2>
     </header>
   );
