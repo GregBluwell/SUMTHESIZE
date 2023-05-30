@@ -1,7 +1,7 @@
 # SumTheSize ~
-## Article summarizer powered by OpenAI GPT-4
+## Article summarizer application powered by OpenAI GPT-4
 
-> **REACT, Material UI, Full Calendar, Nivo Charts, Formik**
+> **REACT, Redux, TailwindCSS**
 
 ![react](https://i.ibb.co/Rvzz0xZ/react.png) &nbsp;
 ![materialUI](https://i.ibb.co/vjMnwBC/material-UI.png) &nbsp;
