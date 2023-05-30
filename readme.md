@@ -4,7 +4,7 @@
 > **REACT, Redux, TailwindCSS**
 
 ![react](https://i.ibb.co/Rvzz0xZ/react.png) &nbsp;
-![redux](https://i.ibb.co/0t3G8B0/tailwind.png)
+![redux](https://i.ibb.co/372cBd7/redux.png) &nbsp;
 ![tailwind](https://i.ibb.co/0t3G8B0/tailwind.png)
 
 
